@@ -1,5 +1,5 @@
 {% set name = "quera-ahs-utils" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/quera-ahs-utils-{{ version }}.tar.gz
-  sha256: d0a3928568eb69da09c12321ec4b406efa39b754fc2a9c81b310b2ccfc5f403d
+  sha256: 19a2ed8dab95e31d080015fad130dce0fb776b2618e8e46ef4569b095a75d2b9
 
 build:
   noarch: python
@@ -36,10 +36,9 @@ test:
 
 about:
   home: https://github.com/QuEraComputing/quera-ahs-utils
-  summary: Various tools to interact with Braket Analog Hamiltonian Simulation
+  summary: Various tools to interact with Braket Analog Hamiltonian Computing
   license: BSD-3-Clause
   license_file: LICENSE
-  doc_url: https://queracomputing.github.io/quera-ahs-utils/
 
 extra:
   recipe-maintainers:
